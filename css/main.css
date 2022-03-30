@@ -1,0 +1,366 @@
+.container {
+    max-width: 1500px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+section {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 16px 0px 115px 0px
+}
+
+body {
+    margin: 0;
+    background-color: #E3F1FF;
+}
+
+h1 {
+    color: #361473;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 0.1em;
+    text-shadow: 10px 10px 20px rgb(0 0 0 / 11%);
+}
+
+p {
+    color: #361473;
+    color: #361473;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    color: #361473;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2em;
+    text-shadow: 10px 10px 20px rgb(0 0 0 / 11%);
+}
+
+h3 {
+    color: #361473;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.8em;
+}
+
+h4 {
+    color: #FFAA0C;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.1em;
+    text-shadow: 10px 10px 20px rgb(0 0 0 / 11%);
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 200px;
+    height: 200px;
+}
+
+i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    margin-left: 10px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.scroll__button {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-shadow: 0px 0px 16px rgb(0 0 0 / 30%);
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #FFAA0C;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: -66px 8px 72px -67px #ffffff inset;
+    padding: 14px 19px 14px 19px;
+    width: 110px;
+    max-height: 16.5px;
+    text-align: center;
+}
+
+.header__button {
+    margin-top: 5%;
+}
+
+.element__row {
+    display: flex;
+}
+
+.phone-images {
+    height: 100%;
+    width: 100%;
+}
+
+.icon__popup__video {
+    content: "\f144";
+}
+
+.icon__play {
+    content: "\f144";
+}
+
+.icon__play::before {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.columns {
+    display: flex;
+}
+
+.columns__items {
+    width: 33.3%;
+    text-align: center;
+}
+
+.columns__numbers__text {
+    color: #FFAA0C;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 17px;
+}
+
+.columns_countable {
+    color: #361473;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.middle {
+    padding: 115px 0px 58px 0px;
+}
+
+.middle__text {
+    text-align: center;
+}
+
+.columns__middle {
+    display: flex;
+    width: 100%;
+}
+
+.graph-image {
+    width: 100%;
+    height: 96%;
+}
+
+.columns__list__texts {
+    color: #361473;
+    padding-left: 5px;
+    margin-top: 4%;
+}
+
+li::marker {
+    content: "\f057";
+}
+
+.about__text {
+    padding: 5% 0% 5% 10%;
+}
+
+.about__text__info {
+    margin-bottom: 5%;
+}
+
+.about__text__info__second {
+    margin-bottom: 5%;
+}
+
+.text_title {
+    color: #361473;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.1em;
+    text-shadow: 10px 10px 20px rgb(0 0 0 / 11%);
+}
+
+.row__image {
+    margin-top: 30%;
+}
+
+.graphs-img {
+    width: 563px;
+}
+
+.list__info__Header {
+    text-align: center;
+}
+
+.list__info__items {
+    display: flex;
+}
+
+.list__info__title {
+    color: #FFAA0C;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.1em;
+    text-shadow: 10px 10px 20px rgb(0 0 0 / 11%);
+}
+
+.list__info__item {
+    margin-left: 3%;
+    max-width: 32%;
+}
+
+.item__img {
+    margin-top: 10%;
+    width: 95%;
+}
+
+.welcome__header {
+    color: #361473;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.1em;
+    text-shadow: 10px 10px 20px rgb(0 0 0 / 11%);
+}
+
+.welcome__button {
+    text-align: center;
+}
+
+.welcome__texts {
+    text-align: center;
+}
+
+.welcome__info__text {
+    color: #361473;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 28px;
+}
+
+.row__text {
+    padding: 60px 10px 10px 30px;
+}
+
+.row__right {
+    width: 50%;
+}
+
+.row__left {
+    width: 50%;
+}
+
+.facebook-images {
+    width: 100%;
+    height: 100%;
+}
+
+.clients__title {
+    text-align: center;
+}
+
+.element__row__items {
+    display: flex;
+}
+
+.element__row__right {
+    min-width: 42%;
+}
+
+.real__photo-img {
+    border-radius: 150px;
+}
+
+.bottom__text__title {
+    color: #361473;
+    font-family: "Roboto", Sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+}
+
+.text {
+    color: #361473;
+    font-family: "Roboto", Sans-serif;
+    font-size: 0.87rem;
+    font-weight: 400;
+    line-height: 1.617em;
+}
+
+.bottom__element__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.bottom__scroll__button {
+    display: inline-block;
+    line-height: 1;
+    background-color: #FFAA0C;
+    font-size: 15px;
+    padding: 12px 24px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    fill: #fff;
+    text-align: center;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.contact__form__title {
+    margin-left: 7%;
+    color: #FFAA0C;
+    font-family: "Roboto", Sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-phone {
+    content: "\f095";
+}
+
+footer {
+    padding: 1%;
+    background-color: #15171c;
+    text-align: center;
+}
+
+.footer__text {
+    color: #ffffff;
+    font-family: "Karla", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 1.3px;
+}
